@@ -2,14 +2,36 @@
 <html>
     <head>
         <title>Random Quotes Generator</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
         
+        <!-- Must add jQuery before Bootstrap -->
+        <script type=text/javascript src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+        <script type=text/javascript src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
     </head>
     <body>
-        <h1>Generate a Quote!</h1>
-        <div id="quoteDisplay">
-            <!-- Quotes will display here -->
+        <center>
+        <div class= "container-fluid text-center">
+            <h1>Generate a Quote!</h1>
+            <div class="well">
+                <div class="quote">
+                    <!-- Quotes will display here -->
+                    <span class="quote"></span>
+                </div>
+                <div class="author">
+                    <span class="author"></span>
+                </div>
+            </div>
+            <button type="button" class="btn btn-success" id="submit">New Quote!</button>
         </div>
-        <script src="javascript.js"></script>
+        </center>
+        <script src="server.js"></script>
     </body>
    
 </html>

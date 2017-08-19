@@ -1,0 +1,21 @@
+.container-fluid {
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-bottom: 20px;
+  text-align: center;
+  color: #1e90ff;
+  font-family: 'Josefin Sans';
+}
+body {
+  position: relative;
+  background-color: #0d493b;
+}
+.well {
+  margin-right: 3%;
+  margin-left: 3%;
+  background-color: #0d493b;
+
+}
+span {
+  font-size: 30px !important;
+}
